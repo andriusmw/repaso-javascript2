@@ -54,22 +54,13 @@ ya podemos acceder al id de cada elemento y comprobar que sea
 */
 console.log(existe)
 
-//---------------------
 
-const existe2 = heroes.map( (heroe) => {
-    heroe.id = heroe.id + 3;
-    return "Hola " + heroe.id + " " + heroe.name
-}
- );
-/*
-dentro del arrow function podemos hacer instrucciones.
-La función map recorre el array creándo uno nuevo con 
-los valores anteriores, así podemos modificar esos valores
-y conservar ambos arrays. En este ejemplo hemos combinado
-las dos sintaxis.
+
+// ------------------- FIND--------------
+
+
+const existe3 = heroes.find( (heroe3) => heroe3.id === 1);
+/* Some devuelve los datos o undefined sino lo encuentra
 */
-console.log(existe2)
-
-
-
-
+console.log(existe3)
+console.log(heroes)
