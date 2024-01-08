@@ -31,7 +31,7 @@ const arreglo3 = [...arreglo]
 arreglo3.push(7)
 console.log(arreglo3)
 
-// --------------
+// -------------- map
 
 const arreglo4 = arreglo2.map( function(n){
     return n * 2
