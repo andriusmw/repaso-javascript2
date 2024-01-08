@@ -1,3 +1,5 @@
-import {owners} from './data/heroes'
+import heroes from './data/heroes'
 
-const [dc, marvel] = owners
+
+console.log(heroes)
+

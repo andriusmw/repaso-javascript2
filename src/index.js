@@ -1,5 +1,1 @@
-import heroes from './data/heroes'
-
-
-console.log(heroes)
-
+console.log("Hola mundo")
