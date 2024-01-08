@@ -1,12 +1,10 @@
 
+function saludar(nombre) {
+    return 'Hola ' + nombre
+}
 
-
-
-
-
-console.log('Hola Mundo!!')
-
-
+let nombre = "Tony"
+console.log(saludar(nombre))
 
 
 
