@@ -1,7 +1,7 @@
 import heroes from '../data/heroes'
 
 
-console.log(heroes)
+//console.log(heroes)
 
 
 //getHeroById (id)
